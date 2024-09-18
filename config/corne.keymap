@@ -62,7 +62,7 @@
           &kp TAB   &kp TILDE &none     &none     &none     &none         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &kp DEL
 
 //        |    LSHFT |     `   |         |         |         |         |---|     _    |     +    |     {    |     }    |    |     |          |
-          &kp LSHFT   &kp GRAVE &none     &none     &none     &none         &kp UNDER  &kp PLUS   &kp LBRB   &kp RBRB   &kp PIPE   &none
+          &kp LSHFT   &kp GRAVE &none     &none     &none     &none         &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE   &none
 
 //                                       |  LCTRL  |   LWR   |   SPC   |---| ENT      | RSE      |     RWIN |
                                           &kp LCTRL &mo FUNC  &kp SPACE     &kp RET    &mo FUNC   &kp RGUI

@@ -31,7 +31,7 @@
           &kp LSHFT   &kp Z     &kp X     &kp C     &kp V     &kp B         &kp N     &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp TAB
 
 //                                       |   LCTRL  |   LWR   |   SPC  |---| ENT     | RSE      |     RWIN |
-                                          &kp LCTRL  &lt NUM GRAVE   &kp SPACE     &kp RET   &mo SYM    &kp RGUI
+                                          &kp LCTRL  &mo NUM   &kp SPACE     &kp RET   &mo SYM    &kp RGUI
                         >;
                 };
 
@@ -59,10 +59,10 @@
           &kp BSPC     &kp EXCL &kp AT    &kp POUND &kp DLLR  &kp PRCNT     &kp CARET  &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR   &kp BSPC
 
 //        |    ALT   |         |         |         |         |         |---|     -    |     =    |    [     |     ]    |    \     |  Delete  |
-          &kp LALT    &none     &none     &none     &none     &none         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &kp DEL
+          &kp LALT    &kp TILDE  &none     &none     &none     &none         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &kp DEL
 
 //        |    LSHFT |         |         |         |         |         |---|     _    |     +    |     {    |     }    |    |     |          |
-          &kp LSHFT   &none     &none     &none     &none     &none         &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE   &none
+          &kp LSHFT   &kp GRAVEz  &none     &none     &none     &none         &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE   &none
 
 //                                       |  LCTRL  |   LWR   |   SPC   |---| ENT      | RSE      |     RWIN |
                                           &kp LCTRL &mo FUNC  &kp SPACE     &kp RET    &mo FUNC   &kp RGUI

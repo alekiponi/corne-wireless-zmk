@@ -89,14 +89,14 @@
                 shortcut_layer {
                         display-name = "Shortcuts";
                         bindings = <
-//        |          |         |  F2    |   F3    |          |         |---|          |          |          |           |         |          |
-          &none       &none     &kp F2   &kp F2    &none      &none         &none      &none      &none      &none      &none      &none
+//        |          |  Y      |  U     |  I      |  O       |  P      |---|          |          |          |           |         |          |
+          &none       &kp Y     &kp U    &kp I     &kp O      &kp P         &none      &none      &none      &none      &none      &none
 
-//        |          |         |        |         |          |         |---|          |          |          |           |         |          |
-          &none       &none     &none    &none     &none      &none         &none      &none      &none      &none      &none      &none
+//        |          |   H     |  J     |  K      |  L       |  ;      |---|          |          |          |           |         |          |
+          &none       &kp H     &kp J    &kp K     &kp L      &kp SEMI      &none      &none      &none      &none      &none      &none
 
-//        |         |         |         |         |          |         |---|          |          |          |          |          |          |
-          &none       &none     &none     &none     &none     &none         &none      &none      &none      &none      &none      &none
+//        |         |   N     |   M     |   ,     |     .    |  /      |---|          |          |          |          |          |          |
+          &none       &kp N     &kp M    &kp COMMA &kp DOT   &kp FSLH         &none      &none      &none      &none      &none      &none
 
 //                                       |  LCTRL  |   LWR   |   SPC   |---| ENT      | RSE      |     RWIN |
                                           &kp LCTRL &trans    &kp SPACE     &kp RET   &trans    &kp RGUI

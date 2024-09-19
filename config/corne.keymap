@@ -38,14 +38,14 @@
                 number_layer {
                         display-name = "Number";
                         bindings = <
-//        | Backspace|     7   |     8   |     9   |    0    |         |---|          |          |          |          |          | Backspace|
-          &kp BSPC    &kp KP_N7 &kp KP_N8 &kp KP_N9 &none     &none         &none      &none      &none      &none      &none      &kp BSPC
+//        | Backspace|     7   |     8   |     9   |   F2    |   F3    |---|          |          |          |          |          | Backspace|
+          &kp BSPC    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp F2    &kp F3        &none      &none      &none      &none      &none      &kp BSPC
 
-//        | TAB/SHORT|     4   |     5   |     6   |         |         |---|          |   <-     |     ^    |     \/   |     ->   | Delete   |
-          &lt SHORT TAB &kp KP_N4 &kp KP_N5 &kp KP_N6 &none     &kp G         &none      &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &kp DEL
+//        |     SHORT|     4   |     5   |     6   |    [    |    ]    |---|          |   <-     |     ^    |     \/   |     ->   | Delete   |
+          &mo SHORT   &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp LBKT  &kp RBKT      &none      &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &kp DEL
 
-//        |    0     |     1   |     2   |     3   |         |         |---|          |          |          |          |          |          |
-           &kp KP_N0  &kp KP_N1 &kp KP_N2 &kp KP_N3 &none     &none         &none      &none      &none      &none      &none      &none
+//        |          |     1   |     2   |     3   |    0    |         |---|          |          |          |          |          |          |
+           &none      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_N0 &none         &none      &none      &none      &none      &none      &none
 
 //                                       |  LCTRL  |   LWR   |   SPC   |---| ENT      | RSE      |     RWIN |
                                           &kp LCTRL &mo FUNC  &kp SPACE     &kp RET    &mo FUNC    &kp RGUI
@@ -58,8 +58,8 @@
 //        | Backspace|    !    |    @    |    #    |    $    |    %    |---|     ^    |     &    |     *    |     (    |     )    | Backspace|
           &kp BSPC     &kp EXCL &kp AT    &kp POUND &kp DLLR  &kp PRCNT     &kp CARET  &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR   &kp BSPC
 
-//        |    TAB   |     ~   |         |         |         |         |---|     -    |     =    |    [     |     ]    |    \     |  Delete  |
-          &kp TAB   &kp TILDE &none     &none     &none     &none         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &kp DEL
+//        |    ALT   |     ~   |         |         |         |         |---|     -    |     =    |    [     |     ]    |    \     |  Delete  |
+          &kp LALT   &kp TILDE &none     &none     &none     &none         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &kp DEL
 
 //        |    LSHFT |     `   |         |         |         |         |---|     _    |     +    |     {    |     }    |    |     |          |
           &kp LSHFT   &kp GRAVE &none     &none     &none     &none         &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC   &kp PIPE   &none
@@ -78,8 +78,8 @@
 //        | F13      |    F14  |    F15  |    F16  |   F17   |    F18  |---|    F19   |    F20   |   F21    |    F22    |    F23  |    F24   |
           &kp F13     &kp F14  &kp F15    &kp F16   &kp F17   &kp F18       &kp F19    &kp F20    &kp F21     &kp F22     &kp F23   &kp F24
 
-//        |  NUMLOCK |         |         |         |         |         |---|          |          |          |          |          |          |
-          &kp KP_NUM  &none     &none     &none     &none     &none         &none      &none      &none      &none      &none      &none
+//        |  NUMLOCK |  CAPS   |         |         |         |         |---|          |          |          |          |          |          |
+          &kp KP_NUM  &kp CAPS  &none     &none     &none     &none         &none      &none      &none      &none      &none      &none
 
 //                                       |  LCTRL  |   LWR   |   SPC   |---| ENT      | RSE      |     RWIN |
                                           &kp LCTRL &trans    &kp SPACE     &kp RET   &trans    &kp RGUI
@@ -89,11 +89,11 @@
                 shortcut_layer {
                         display-name = "Shortcuts";
                         bindings = <
-//        |          |         |        |         |          |         |---|          |          |          |           |         |          |
-          &none       &none     &none     &none     &none     &none         &none      &none      &none      &none      &none      &none
+//        |          |         |  F2    |   F3    |          |         |---|          |          |          |           |         |          |
+          &none       &none     &kp F2   &kp F2    &none      &none         &none      &none      &none      &none      &none      &none
 
 //        |          |         |        |         |          |         |---|          |          |          |           |         |          |
-          &none       &none     &none     &none     &none     &none         &none      &none      &none      &none      &none      &none
+          &none       &none     &none    &none     &none      &none         &none      &none      &none      &none      &none      &none
 
 //        |         |         |         |         |          |         |---|          |          |          |          |          |          |
           &none       &none     &none     &none     &none     &none         &none      &none      &none      &none      &none      &none

@@ -44,8 +44,8 @@
 //        |     SHORT|     4   |     5   |     6   |    [    |    ]    |---|          |   <-     |     ^    |     \/   |     ->   | Delete   |
           &mo SHORT   &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp LBKT  &kp RBKT      &none      &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT  &kp DEL
 
-//        |          |     1   |     2   |     3   |    0    |         |---|          |          |          |          |          |          |
-           &none      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_N0 &none         &none      &none      &none      &none      &none      &none
+//        |   F4     |     1   |     2   |     3   |    0    |         |---|          |          |          |          |          |          |
+           &kp F4      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_N0 &none         &none      &none      &none      &none      &none      &none
 
 //                                       |  LCTRL  |   LWR   |   SPC   |---| ENT      | RSE      |     RWIN |
                                           &kp LCTRL &mo FUNC  &kp SPACE     &kp RET    &mo FUNC    &kp RGUI
